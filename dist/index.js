@@ -1,0 +1,11 @@
+"use strict";
+let age = 30;
+let firstName = "Mario";
+let isFictional;
+age = 31;
+firstName = "Luigi";
+isFictional = false;
+let planet = "earth";
+let moons = 1;
+let isLarge = false;
+console.log("Hello world!!!!");
