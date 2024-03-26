@@ -1,13 +1,20 @@
-let age: number = 30;
-let firstName: string = "Mario";
-let isFictional: boolean;
+let names: string[] = ["mario", "luigi"];
 
-age = 31;
-firstName = "Luigi";
-isFictional = false;
+let fruits = ["apple", "mangos", "bananas"];
 
-let planet = "earth";
-let moons = 1;
-let isLarge = false;
+fruits.push("peaches");
 
-console.log("Hello world!!!!");
+const f = fruits[3];
+
+let things = [1, true, "hello"];
+
+const t = things[0];
+
+let user: { firstName: string; age: number; id: number } = {
+  firstName: "Mario",
+  age: 22,
+  id: 2,
+};
+
+user.firstName = "peach";
+user.id = 2;
